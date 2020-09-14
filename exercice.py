@@ -29,7 +29,7 @@ def to_degrees(angle_rads: float) -> tuple:
     degs = angle_rads * 360 / (2*math.pi)
     angle_degs = math.floor(degs)
     mins = (degs - angle_degs)*60
-    angle_mins = 
+    angle_mins = math.floor(mins)
     return 0.0, 0.0, 0.0
 
 
